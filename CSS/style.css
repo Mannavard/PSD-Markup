@@ -1,9 +1,8 @@
-body {
-    background: url("../IMG/background.jpg") no-repeat fixed center;
+html {
+    background: url("../IMG/background.jpg");
 }
 
 .wrapper {
-    background-color: #999;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,6 +10,7 @@ body {
     flex-flow: wrap column;
     width: 740px;
     height: auto;
+    margin: auto;
 }
 
 .header {
@@ -44,14 +44,38 @@ body {
 }
 
 .container {
-    padding: 15px;
+    padding: 50px 70px 50px 69px;
     position: relative;
     background-color: #f3f3f3;
     word-wrap: break-word;
     border-radius: 10px;
+    box-shadow: 5px 5px 8px black;
 }
 
 .container_header_photo {
     float: left;
     padding-right: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: inherit;
+    height: 111px;
+}
+
+.footer_tel {
+    color: #f2b01c;
+    font-size: 24px;
+}
+
+.footer_tel_text {
+    color: white;
+}
+
+.footer_logo {
+    color: white;
+    display: inline-block;
+    width: 169px;
 }
