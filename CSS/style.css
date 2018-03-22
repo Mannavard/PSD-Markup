@@ -57,15 +57,41 @@ html {
 
 .container_header {
     padding-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
 }
 
 .container_header_photo {
     float: left;
-    margin-right: 20px;
+}
+
+.container_header_lists {
+    padding: 0px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.container_header_lists>ul {
+    position: relative;
+    padding-left: 20px;
+    display: inline-block;
+    list-style-type: none;
+    line-height: 2em;
+}
+
+.container_content {
+    /* padding-top: 40px; */
 }
 
 .container_content>ul {
+    display: inline-block;
+    padding: 0px;
     list-style-type: none;
+}
+
+.containter__content_links {
+    text-decoration-line: none;
+    color: #0e4d66;
 }
 
 .footer {
