@@ -72,6 +72,7 @@ html {
 }
 
 .container_header_lists>ul {
+    margin-top: 0;
     position: relative;
     padding-left: 20px;
     display: inline-block;
@@ -110,12 +111,15 @@ html {
 
 .footer_logo {
     color: white;
-    width: 169px;
+    width: 179px;
     display: inline;
 }
 
 .footer_logo_img {
     float: left;
+    margin-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .footer_logo_link {
